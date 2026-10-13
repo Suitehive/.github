@@ -1,0 +1,47 @@
+name: Bug report
+description: Something isn't working the way it should
+labels: [bug, triage]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! Security issues go through the Security tab, not here.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Sign in as …
+        2. Open …
+        3. Click …
+    validations:
+      required: true
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which part?
+      options: [Mail, Calendar, Sign-in / Account, Admin console, Installer / CLI, Other]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: "output of `suitehive version`, or a commit SHA"
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: OS, browser, how you run Suitehive (installer, local dev), and anything else that might matter.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant log lines (`suitehive logs <service>`). Remove passwords, tokens and email addresses.
+      render: text
