@@ -38,6 +38,8 @@ Now: Mail, Calendar, Sign-in & Admin. Next: Contacts, Drive, Docs/Sheets/Slides,
 
 ### Get involved
 
+Suitehive is open source under the [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html) license.
+
 Ideas, questions and bug reports are welcome. Read the [contributing guide](https://github.com/Suitehive/.github/blob/main/CONTRIBUTING.md)
 before your first pull request, and report security issues privately as described in our
 [security policy](https://github.com/Suitehive/.github/blob/main/SECURITY.md).
